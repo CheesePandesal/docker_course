@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --bg-color: #f0f0f0;
+  --main-accent: #a388ee; /* Purple */
+  --second-accent: #97ebb3; /* Mint */
+  --third-accent: #ffea75; /* Yellow */
+  --pop-pink: #ff90e8;
+  --text-color: #0d0d0d;
+  --border-thick: 3px solid #000;
+  --shadow-hard: 5px 5px 0px 0px #000;
+  --shadow-hover: 2px 2px 0px 0px #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend', sans-serif;
+  background-color: var(--bg-color);
+  background-image: radial-gradient(#000 1px, transparent 1px);
+  background-size: 20px 20px; /* Dot pattern */
+  color: var(--text-color);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

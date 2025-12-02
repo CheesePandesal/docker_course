@@ -250,3 +250,33 @@
   padding: 20px;
   margin-top: 50px;
 }
+
+/* --- Neo-Brutalist Scrollbar --- */
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 16px; 
+}
+
+/* The track (background) */
+::-webkit-scrollbar-track {
+  background: var(--bg-color); /* Matches your dotted background */
+  border-left: 3px solid #000; /* Bold divider line */
+}
+
+/* The handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background: var(--main-accent); /* Use your purple accent */
+  border: 3px solid #000; /* Thick border around the handle */
+  box-shadow: inset -2px -2px 0px 0px rgba(0,0,0,0.2); /* Inner depth feel */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--pop-pink); /* Switch to pink on hover */
+}
+
+/* Handle on click */
+::-webkit-scrollbar-thumb:active {
+  background: var(--second-accent); /* Switch to mint on click */
+}
